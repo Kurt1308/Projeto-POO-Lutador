@@ -4,12 +4,7 @@ package aula07poolutador;
 public class Aula07POOLutador {
 
     public static void main(String[] args) {
-       /*
-        Lutador l = new Lutador("Lucas", "Brasileiro", 33, 1.73f, 
-       81.2f, 11, 2, 1);
-        De acordo com a forma acima, precisamos criar um por um.
-        Vamos fazer o mesmo usando vetores.
-        */
+       
        Lutador l[] = new Lutador[6];
        l[0] = new Lutador("Lucas", "Brasileiro", 33, 1.73f, 
                           81.2f, 11, 2, 1);
